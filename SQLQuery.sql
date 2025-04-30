@@ -116,7 +116,9 @@ GROUP BY payment_method, payment_status
 ORDER BY payment_method, payment_status;
 
 
---4. Order Details Report:SELECT 
+--4. Order Details Report:
+
+SELECT 
   o.order_id,
   o.customer_id,
   o.order_date,
